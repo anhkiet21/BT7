@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org"
-	  xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
 <body>
-<div th:fragment="header">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" th:href="@{/admin/categories}">Admin Panel</a>
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link" th:href="@{/admin/categories}">Categories</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-</div>
+	<div th:fragment="header">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" th:href="@{/admin/categories}">Admin
+					Panel</a>
+				<div class="collapse navbar-collapse">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item"><a class="nav-link"
+							th:href="@{/admin/categories}">Categories</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+						<li class="nav-item"><img
+							src="/uploads/category/z6906936696538_83d5994efb0bab9b37e595196cdb1cee.jpg" alt="hehehe"
+							style="height: 40px;"></li>
+
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
 </body>
 </html>
